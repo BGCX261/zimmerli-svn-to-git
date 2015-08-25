@@ -1,0 +1,2 @@
+<?php
+ abstract class selectorGroupField {public function __get($v23a5b8ab834cb5140fa6665622eb6417) {return $this->$v23a5b8ab834cb5140fa6665622eb6417;}};class selectorGroupFieldProp extends selectorGroupField {protected $fieldId;public function __construct($v945100186b119048837b9859c2c46410) {$this->fieldId = $v945100186b119048837b9859c2c46410;}};class selectorGroupSysProp extends selectorGroupField {protected $name;public function __construct($vb068931cc450442b63f5b3d276ea4297) {$this->name = $vb068931cc450442b63f5b3d276ea4297;}}?>

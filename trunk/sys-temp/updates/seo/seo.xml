@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1353922527</timestamp>
+      <rfc>Mon, 26 Nov 2012 12:35:27 +0300</rfc>
+      <utc>2012-11-26T12:35:27+03:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/seo" val="seo"/>
+    <key path="modules/seo/name" val="seo"/>
+    <key path="modules/seo/filename" val="modules/seo/class.php"/>
+    <key path="modules/seo/config" val="1" update="1"/>
+    <key path="modules/seo/default_method" val="show" update="1"/>
+    <key path="modules/seo/default_method_admin" val="seo" update="1"/>
+    <key path="modules/seo/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/seo/func_perms/seo" val="SEO-функции"/>
+    <key path="modules/seo/megaindex-login" val="megaindex@umisoft.ru"/>
+    <key path="modules/seo/megaindex-password" val="et676e5rj"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/seo" name="seo">/classes/modules/seo</directory>
+    <directory path="./styles/skins/mac/data/modules/seo" name="seo">/styles/skins/mac/data/modules/seo</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/seo/i18n.en.php" size="12893" ext="php" hash="42f78143666e7b571c8c959ef0708e99" name="i18n.en.php" only_install="true">/classes/modules/seo/i18n.en.php</file>
+    <file path="./classes/modules/seo/lang.php" size="156" ext="php" hash="bef81a65aba8c590e643c7956f7f702d" name="lang.php">/classes/modules/seo/lang.php</file>
+    <file path="./classes/modules/seo/.htaccess" size="14" ext="htaccess" hash="fa6ac27439a678fc3cda1b4b7da099e4" name=".htaccess">/classes/modules/seo/.htaccess</file>
+    <file path="./classes/modules/seo/__yandex.php" size="7067" ext="php" hash="cc216c9813985c103c35494e34c8cb2f" name="__yandex.php">/classes/modules/seo/__yandex.php</file>
+    <file path="./classes/modules/seo/class.php" size="770" ext="php" hash="436e0a18b8c758f548167e0474cb3e9c" name="class.php">/classes/modules/seo/class.php</file>
+    <file path="./classes/modules/seo/permissions.php" size="68" ext="php" hash="c1eaef03d3e180cf5ec4547c28555083" name="permissions.php">/classes/modules/seo/permissions.php</file>
+    <file path="./classes/modules/seo/__admin.php" size="12211" ext="php" hash="494a35d02509ba0999aa0f6ebad087eb" name="__admin.php">/classes/modules/seo/__admin.php</file>
+    <file path="./classes/modules/seo/install.php" size="849" ext="php" hash="f11f86af6a100d609051e3bc7bb72e19" name="install.php">/classes/modules/seo/install.php</file>
+    <file path="./classes/modules/seo/i18n.php" size="13465" ext="php" hash="312772349d0ea4f9b42b3ffaa42b0783" name="i18n.php">/classes/modules/seo/i18n.php</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.modify.xsl" size="4127" ext="xsl" hash="f6c0018f3e931b7349e16dea1bd354b4" name="settings.modify.xsl">/styles/skins/mac/data/modules/seo/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.view.xsl" size="27024" ext="xsl" hash="f66f6071a7b5c60774311c443220d536" name="settings.view.xsl">/styles/skins/mac/data/modules/seo/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

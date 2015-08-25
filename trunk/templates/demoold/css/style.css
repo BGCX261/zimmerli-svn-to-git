@@ -1,0 +1,729 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*border: 0*/
+}
+body {
+	font-family: Tahoma, Helvetica, Sans-Serif;
+	font-size: 11px;
+	_text-align: center;
+}
+
+body #u-panel-holder {
+	_text-align: left;
+}
+
+a {color: #00adef}
+a:link {color: #00adef}
+a:visited {color: #00adef}
+a:hover {color: #00adef}
+a:active {color: #00adef}
+
+
+.editable {
+	border: 1px dashed red;
+}
+
+h1.hdr {
+	width: 286px;
+	height: 90px; /*51*/
+	margin-left: 0px;
+	background: url(/templates/demoold/images/logo.png) left  center no-repeat
+}
+h1 span {
+	display: none
+}
+h2 {
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: #3281cd
+}
+
+h3 {
+	font-family: Trebuchet MS, Tahoma, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: italic;
+	color: #949494
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+input[type="submit"],
+input[type="button"] {
+	padding: 1px 10px; !important;
+	font-size: 11px; !important
+}
+input#login_, 
+input#email_
+{
+background:red;
+margin:5px 5px 5px 0px;
+
+}
+table {
+	font-size: 11px;
+}
+#vote {
+	background: #f8ecec;
+	margin-bottom: 10px;
+}
+	#vote h2 {
+		color: #cb4747	
+	}
+	#vote p {
+		margin-bottom: 10px;
+		padding: 10px;
+		font-weight: bold;
+		background: #fdf9f9
+	}
+
+.textinputs {
+	width: 200px;
+	height: 16px;
+	padding: 1px;
+	font-size: 11px;
+	color: #949494;
+	border: #95aec5 1px solid
+}
+
+#container {
+	/*width: 963px;*/
+	width: 945px;
+	
+	margin:0 auto;
+	*text-align:left;
+}
+#quick-links {
+	position: absolute;
+	top: 47px;
+	margin-left: 320px;
+	z-index: 1
+}
+	#quick-links a {
+		display: block;
+		float: left;
+		margin: 0 15px;
+	}
+	#quick-links #home {
+		width: 11px;
+		height: 10px;
+		background: url(/templates/demoold/images/icons/home_active.gif)
+	}
+	#quick-links #sitetree {
+		width: 11px;
+		height: 9px;
+		background: url(/templates/demoold/images/icons/sitetree.gif)
+	}
+	#quick-links #mailto {
+		width: 12px;
+		height: 8px;
+		background: url(/templates/demoold/images/icons/mailto.gif)
+	}
+		#quick-links a span {
+			display: none
+		}
+#banner468x60 {
+	position: absolute;
+	top: 15px;
+	margin-left: 477px;
+	width: 468px;
+	height: 60px;
+	background: url(/templates/demoold/images/banner468x60.png) no-repeat right
+}
+#header {
+	position: relative;
+	width: 963px;
+	height: 188px;
+	margin-right: -18px;
+	background: url(/templates/demoold/images/top.jpg)
+}
+	#header .banner {
+		position: absolute;
+		width: 260px;
+		margin-top: 70px;
+		margin-left: 480px;
+		font-size: 12px;
+		color: #fff
+	}
+
+#langs {
+	position: absolute;
+	margin: 20px 0 0 30px
+}
+	#langs a {
+		padding: 2px 6px;
+		text-transform: uppercase;
+		background: #fff
+	}
+	#langs a.active {
+		text-decoration: none;
+		color: #fff !important;
+		background: #ff6400
+	}
+#auth {
+	position: absolute;
+	margin: 65px 0 0 30px;
+	color: #002f81
+}
+	#auth label {
+		float: left;
+		margin: 3px 0;
+		width: 60px;
+		display: block;
+		font-weight: 600
+	}
+	#auth input {
+		display: block;
+		margin: 3px 0 4px 35px
+	}
+	form[id=auth] input {
+		margin: 3px 0 4px 60px !important
+	}
+	#auth #login,
+	#auth #password {
+		width: 130px;
+		padding: 1px;
+		font-size: 10px;
+		color: #949494;
+		border: #95aec5 1px solid
+	}
+	#auth p {
+		margin-top: 5px
+	}
+	#auth .links {
+		margin-top: 5px
+	}
+
+#auth_default {
+	margin-top: 10px;
+	color: #002f81
+}
+	#auth_default label {
+		float: left;
+		margin: 3px 0;
+		font-weight: 600
+	}
+	#auth_default input {
+		display: block;
+		margin: 3px 0 4px 30px
+	}
+	form[id=auth_default] input {
+		margin: 3px 0 4px 50px !important
+	}
+	#auth_default #login,
+	#auth_default #password {
+		width: 130px;
+		padding: 1px;
+		font-size: 10px;
+		color: #949494;
+		border: #95aec5 1px solid
+	}
+	#auth_default p {
+		margin-top: 5px
+	}
+	#auth_default .links {
+		margin-top: 5px
+	}
+	form label.labela{
+	
+	}
+
+#menu {
+	line-height: 28px;
+	font-size: 12px;
+	font-weight: bold
+	/*border: #f00 1px solid*/
+}
+	#menu a {
+		padding: 7px 10px;
+		min-width: 10px;
+	}
+
+	#menu a.active {
+		text-decoration: none;
+		color: #636363 !important;
+		background: #ff6400					
+	}
+
+
+
+
+
+#content {
+	margin-top: 20px;
+}
+.column {
+	float: left;
+	width: 290px;
+	margin-bottom: 40px
+}
+.block {
+	padding: 10px
+}
+#search, #rubricator {
+	margin-bottom: 10px;
+	background: #f2f2f2
+}
+#search {
+	background: #fbebeb
+}
+	#search .input {
+		width: 135px
+	}
+	#rubricator h2 {
+		color: #888888
+	}
+	#rubricator ul {
+		padding: 10px;
+		background: #fff;
+		margin-left: 0px;
+	}
+		#rubricator ul li {
+			margin: 2px 10px;
+			list-style-type:none;
+		}
+
+#footer {
+	clear: both;
+	padding: 30px 0
+}
+
+
+#center ul {
+	margin-top:	3px;
+	margin-bottom: 	3px;
+}
+#center ul li{
+	list-style-type:none;
+}
+
+#center p {
+	margin-top:	7px;
+	margin-bottom:	7px;
+}
+
+#center form#search .input {
+	width:		320px;
+}
+#center form li {
+	list-style-type:none;
+}
+
+#center .item {
+	clear:	both;
+	margin-top:	10px;
+	margin-bottom:	20px;
+}
+
+	#center .item .title, #center .item .date {
+		font-weight:	bold;
+	}
+
+
+	#center .item img.preview {
+		float:		left;
+		margin:		5px;
+		margin-left:	0px;
+	}
+
+
+	#center img.news_photo {
+		float:	right;
+		margin-left:	10px;
+		margin-bottom:	10px;
+		border:		#CCC 1px solid;
+	}
+
+
+	#center .source {
+		text-align:	right;
+	}
+
+
+	#center div#related_news {
+		background-color:	#DDD;
+		padding:	10px;
+		width:		400px;
+		margin-top:	30px;
+		margin-bottom:	30px;
+	}
+
+#center div.basket_remove_all {
+	margin: 10px 0 20px 0;
+}
+
+#center form#bonus_payment input[type="text"] {
+	margin-right: 8px;
+}
+
+#center form#bonus_payment label {
+	display: block;
+	margin: 7px 0;
+}
+
+
+
+
+/* style->p-> �������� */
+/* style->h2-> ��������� 1 */
+/* style->h3-> ��������� 2 */
+
+
+.content_quote {		/* style->.content_quote->������ */
+	padding:		15px;
+	background-color:	#DDD;
+}
+
+.quote {
+    padding : 0px 0px 0px 5px;
+    background-color: #eee;    
+    border: 1px solid #ccc;
+}
+
+#order_block {
+	border-color: #F6F9FE;
+}
+	#order_block tr {
+		background-color: #F6F9FE;
+		border-bottom: 2px solid #FFFFFF;
+	}
+
+	#order_block td {
+		border: 0px !important;
+		padding: 7px;
+		height: 20px;
+		text-align: center;
+	}
+
+	#order_block td.orow_count {
+		text-align: center;
+	}
+
+	#order_block td.orow_remove {
+		text-align: center;
+	}
+
+		a.cancel_link, #order_block td.orow_remove a {
+			font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			padding: 2px;
+			text-decoration: none;
+			text-align: center;
+			font-weight: bold;
+			color: #FB0000;
+		}
+
+	#order_block .orow_hat {
+		background-color: #E8F1FA !important;
+	}
+
+	#order_block .orow_hat td {
+		text-align: center;
+	}
+
+	#order_block input {
+		border: 1px solid #859db5;
+		margin: 2px;
+		font-size: 11px;
+		text-align: center;
+	}
+
+
+#catalog_preview {
+	
+}
+
+#catalog_preview tr {
+	height: 5px;
+}
+
+
+
+#search_block {
+	border-color: #F6F9FE;
+}
+
+	#search_block tr {
+		background-color: #F6F9FE;
+		border-bottom: 2px solid #FFFFFF;
+		font-weight: bold;
+	}
+
+	#search_block td {
+		border: 0px !important;
+		padding-left: 10px;
+		padding-right: 5px;
+		height: 20px;
+	}
+
+	#search_block #hat {
+		background-color: #E8F1FA !important;
+	}
+
+	
+/*==========================================================================================================*/
+/*Calendar styles*/
+/* The main calendar widget.  DIV containing a table. */
+
+div.calendar { position: relative; }
+
+.calendar, .calendar table {
+  border: 1px solid #556;
+  font-size: 11px;
+  color: #000;
+  cursor: default;
+  background: #eef;
+  font-family: tahoma,verdana,sans-serif;
+}
+
+/* Header part -- contains navigation buttons and day names. */
+
+.calendar .button { /* "<<", "<", ">", ">>" buttons have this class */
+  text-align: center;    /* They are the navigation buttons */
+  padding: 2px;          /* Make the buttons seem like they're pressing */
+}
+
+.calendar thead .title { /* This holds the current "month, year" */
+  font-weight: bold;      /* Pressing it will take you to the current date */
+  text-align: center;
+  background: #fff;
+  color: #000;
+  padding: 2px;
+}
+
+.calendar thead .headrow { /* Row <TR> containing navigation buttons */
+  background: #778;
+  color: #fff;
+}
+
+.calendar thead .daynames { /* Row <TR> containing the day names */
+  background: #bdf;
+}
+
+.calendar thead .name { /* Cells <TD> containing the day names */
+  border-bottom: 1px solid #556;
+  padding: 2px;
+  text-align: center;
+  color: #000;
+}
+
+.calendar thead .weekend { /* How a weekend day name shows in header */
+  color: #a66;
+}
+
+.calendar thead .hilite { /* How do the buttons in header appear when hover */
+  background-color: #aaf;
+  color: #000;
+  border: 1px solid #04f;
+  padding: 1px;
+}
+
+.calendar thead .active { /* Active (pressed) buttons in header */
+  background-color: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* The body part -- contains all the days in month. */
+
+.calendar tbody .day { /* Cells <TD> containing month days dates */
+  width: 2em;
+  color: #456;
+  text-align: right;
+  padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+  font-size: 80%;
+  color: #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+  color: #fbb;
+}
+
+.calendar table .wn {
+  padding: 2px 3px 2px 2px;
+  border-right: 1px solid #000;
+  background: #bdf;
+}
+
+.calendar tbody .rowhilite td {
+  background: #def;
+}
+
+.calendar tbody .rowhilite td.wn {
+  background: #eef;
+}
+
+.calendar tbody td.hilite { /* Hovered cells <TD> */
+  background: #def;
+  padding: 1px 3px 1px 1px;
+  border: 1px solid #bbb;
+}
+
+.calendar tbody td.active { /* Active (pressed) cells <TD> */
+  background: #cde;
+  padding: 2px 2px 0px 2px;
+}
+
+.calendar tbody td.selected { /* Cell showing today date */
+  font-weight: bold;
+  border: 1px solid #000;
+  padding: 1px 3px 1px 1px;
+  background: #fff;
+  color: #000;
+}
+
+.calendar tbody td.weekend { /* Cells showing weekend days */
+  color: #a66;
+}
+
+.calendar tbody td.today { /* Cell showing selected date */
+  font-weight: bold;
+  color: #00f;
+}
+
+.calendar tbody .disabled { color: #999; }
+
+.calendar tbody .emptycell { /* Empty cells (the best is to hide them) */
+  visibility: hidden;
+}
+
+.calendar tbody .emptyrow { /* Empty row (some months need less than 6 rows) */
+  display: none;
+}
+
+/* The footer part -- status bar and "Close" button */
+
+.calendar tfoot .footrow { /* The <TR> in footer (only one right now) */
+  text-align: center;
+  background: #556;
+  color: #fff;
+}
+
+.calendar tfoot .ttip { /* Tooltip (status bar) cell <TD> */
+  background: #fff;
+  color: #445;
+  border-top: 1px solid #556;
+  padding: 1px;
+}
+
+.calendar tfoot .hilite { /* Hover style for buttons in footer */
+  background: #aaf;
+  border: 1px solid #04f;
+  color: #000;
+  padding: 1px;
+}
+
+.calendar tfoot .active { /* Active (pressed) style for buttons in footer */
+  background: #77c;
+  padding: 2px 0px 0px 2px;
+}
+
+/* Combo boxes (menus that display months/years for direct selection) */
+
+.calendar .combo {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 4em;
+  cursor: default;
+  border: 1px solid #655;
+  background: #def;
+  color: #000;
+  font-size: 90%;
+  z-index: 100;
+}
+
+.calendar .combo .label,
+.calendar .combo .label-IEfix {
+  text-align: center;
+  padding: 1px;
+}
+
+.calendar .combo .label-IEfix {
+  width: 4em;
+}
+
+.calendar .combo .hilite {
+  background: #acf;
+}
+
+.calendar .combo .active {
+  border-top: 1px solid #46a;
+  border-bottom: 1px solid #46a;
+  background: #eef;
+  font-weight: bold;
+}
+
+.calendar td.time {
+  border-top: 1px solid #000;
+  padding: 1px 0px;
+  text-align: center;
+  background-color: #f4f0e8;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+  padding: 0px 3px 0px 4px;
+  border: 1px solid #889;
+  font-weight: bold;
+  background-color: #fff;
+}
+
+.calendar td.time .ampm {
+  text-align: center;
+}
+
+.calendar td.time .colon {
+  padding: 0px 2px 0px 3px;
+  font-weight: bold;
+}
+
+.calendar td.time span.hilite {
+  border-color: #000;
+  background-color: #667;
+  color: #fff;
+}
+
+.calendar td.time span.active {
+  border-color: #f00;
+  background-color: #000;
+  color: #0f0;
+}
+
+#myFlash,
+#myFlash2 {
+	margin:10px 0 40px;
+}
+.table_personal th{
+	vertical-align:middle;
+	background-color: #F2F2F2;
+	text-align: left
+}
+.table_personal td{
+	padding: 5px 10px 5px 0;
+	vertical-align:top;
+	text-align: left
+}
+.table_personal td.fix {
+	padding-right: 0;
+	width: 60px;
+}
+.table_personal td.fix_p {
+	padding-right: 10px;
+}
+.table_personal td.first {
+	width: 100px;
+}
+#auth.auth2 {
+	margin:55px 0 0 20px;
+}
+#auth.auth2 a.link_transfer_class {
+	color: #002F81;
+}

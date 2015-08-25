@@ -1,0 +1,2 @@
+<?php
+if (!isset($_REQUEST['id'])) die;$vb80bb7740288fda1f201890375a60c8f=intval($_REQUEST['id']);require_once('standalone.php');$vb81ca7c0ccaa77e7aa91936ab0070695 = umiHierarchy::getInstance();$v572d4e421e5e6b9bc11d815e8a027112 = $vb81ca7c0ccaa77e7aa91936ab0070695->getPathById($vb80bb7740288fda1f201890375a60c8f);if ($v572d4e421e5e6b9bc11d815e8a027112) {header ("Location:".$v572d4e421e5e6b9bc11d815e8a027112);}else {header ("Status: 404 Not Found",true,404);}?>

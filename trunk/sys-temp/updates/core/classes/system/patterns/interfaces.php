@@ -1,0 +1,2 @@
+<?php
+ interface iSingleton {public static function getInstance($v4a8a08f09d37b73795649038408b5f33 = NULL);};interface iUmiEntinty {public function getId();public function commit();public function update();public static function filterInputString($vb45cffe084dd3d20d928bee85e7b0f21);};?>
